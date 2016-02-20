@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Password Generation Options</title>
+  <link rel="stylesheet" type="text/css" link="pwg.css" />
+  <style>
+    @import "pwg.css";
+  </style>
+</head>
+<body>
+
+<div id="pwg_options">
+
+  <h1>Configure your password</h1>
+
+  <form>
+    <ul>
+      <li><label for="count"># of Characters?</label><input type="number" step="1" min="1" max="32" id="count" /></li>
+      <li><label for="numbers">Numbers?</label><input type="checkbox" id="numbers" /></li>
+      <li><label for="symbols">Symbols?</label><input type="checkbox" id="symbols" /></li>
+      <li><label for="uppercase">Uppercase?</label><input type="checkbox" id="uppercase" /></li>
+      <li><label for="lowercase">Lowercase?</label><input type="checkbox" id="lowercase" /></li>
+    </ul>
+
+    <div id="pwg_options_buttons">
+      <input type="button" value="Save" id="pwg_options_save_button" />
+    </div>
+  </form>
+
+  <p>Developed as a personal time saver.<br>Questions, comments and poetry about your socks can be directed to <a href="mailto:me@mcdoolz.com">me@mcdoolz.com</a>.</p>
+
+</div>
+
+<script src="options.js"></script>
+
+</body>
+</html>
